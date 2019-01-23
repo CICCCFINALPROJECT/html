@@ -5,10 +5,6 @@ html {
 body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300; }
-  body p {
-    font-size: 1.4rem; }
-  body a {
-    text-decoration: none; }
 
 h1 {
   font-size: 3.8rem; }
@@ -25,9 +21,35 @@ h4 {
 h5 {
   font-size: 2.2rem; }
 
+p {
+  font-size: 1.4rem; }
+
+a {
+  text-decoration: none; }
+
 .container {
   width: 100%;
   max-width: 1080px;
   margin: 0 auto; }
+
+/*header*/
+nav ul {
+  display: flex;
+  justify-content: flex-end; }
+nav li {
+  margin-right: 30px; }
+nav li:last-child {
+  margin-right: 0; }
+
+.main-visual {
+  height: 500px;
+  position: relative; }
+  .main-visual h1 {
+    position: absolute;
+    text-align: center;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 0 auto; }
 
 /*# sourceMappingURL=base.css.map */
