@@ -4,30 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="home.css" type="text/css">
+    <link rel="stylesheet" href="sass/base.css">
+    <link rel="stylesheet" href="sass/reset.css">
+    <link rel="stylesheet" href="css/home.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Miniver|Oswald" rel="stylesheet">
     <title>Vera's Burger Shack</title>
 </head>
 <body>
+    <header>
+        <div class="container">
+            <h1><a href="/">logo</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="catering.html">CATERING</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     <div class="fadeSlider">
-        <span class="fadeSlider_01"></span>
-        <span class="fadeSlider_02"></span>
-        <span class="fadeSlider_03"></span>
+        <span class="fadeSlider-1"></span>
+        <span class="fadeSlider-2"></span>
+        <span class="fadeSlider-3"></span>
         <div>
-            <h1 class="title toppage-title-1">Vera's </h1>
-            <h1 class="title toppage-title-2">BURGER SHACK</h1>
+            <h1 class="toppage-title">Vera's<span>BURGER SHACK</span> </h1>
         </div>
     </div>
-    <section class="section02">
+    <section class="container">
         <h2 class="section-title">About Us</h2>
-        <div>
-            <p>Vera’s Burger Shack began as a beach concession at Dundarave Pier in West Vancouver in 1977 under the watchful eye <br> of Vera and her husband Frank. 
+        <div class="text">
+            <p>Vera’s Burger Shack began as a beach concession at Dundarave Pier in West Vancouver in 1977 under the watchful eye of Vera and her husband Frank. 
             Vera prided herself on serving fresh, delicious, homemade food!</p>
         </div>
-        <img src="img/grill.jpg" alt="Grill">
-        <div>
-            <p>We serve an honest burger. We believe it’s a big part of why we’ve consistently won “Best Burger” awards for 10 years in a row and counting. <br> Thanks for being a part of Vera’s story so far, and for helping us live up to our cheeky slogan - <br><b> “You Can't Beat Vera's Meat!”</b></p>
+        <img src="images/home/grill.jpg" alt="Grill">
+        <div class="text">
+            <p>We serve an honest burger. We believe it’s a big part of why we’ve consistently won “Best Burger” awards for 10 years in a row and counting. Thanks for being a part of Vera’s story so far, and for helping us live up to our cheeky slogan - <br><span> “You Can't Beat Vera's Meat!”</span></p>
         </div>
+    </section>
+    <section class="container">
+        <h2 class="section-title">Our Menu</h2>
+        <div class="wrap">
+            <img src="images/home/img01.jpg" alt="">
+            <img src="images/home/img02.jpg" alt="">
+            <img src="images/home/img03.jpg" alt="">
+            <img src="images/home/img04.jpg" alt="">
+            <img src="images/home/img05.jpg" alt="">
+            <img src="images/home/img06.jpg" alt="">
+        </div>
+        <a href="#" class="square_btn">See More</a>
+    </section>
+    <section class="container">
+        <h2 class="section-title">Locations</h2>
+        <div class="ggmap"><iframe src="https://www.google.com/maps/d/u/0/embed?mid=1wBTLHB-9xTL_KvcLDuVHtqPUR19qE4mT" width="640" height="480"></iframe></div>
     </section>
 </body>
 </html>
