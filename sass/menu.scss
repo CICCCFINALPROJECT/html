@@ -1,0 +1,130 @@
+@import 'base';
+.container {
+  h2 {
+    margin-bottom: 50px;
+  }
+}
+.menu-section {
+  margin-top: 150px;
+  
+}
+.menue-list-button {
+  width: 100%;
+  max-width: 860px;
+  margin: 50px auto 100px;
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  li {
+    width: 200px;
+    margin-right: 17px;
+    text-align: center;
+    border: 1px solid;
+  }
+  li:last-child {
+    margin-right: 0;
+  }
+  a {
+    padding: 10px 0;
+    color: #666666;
+    font-size: 1.6rem;
+    display: block;
+  }
+}
+.menue-list {
+  margin-bottom: 150px;
+  > ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  > ul > li {
+    width: calc(350px - 20px);
+    margin-right: 20px;
+  }
+  ul li ul {
+    display: flex
+  }
+  ul li ul {
+    box-shadow: 1px 1px 1px 1px #ccc;
+  }
+  ul li ul li {
+    width: 40%;
+  }
+  ul li ul li:last-child {
+    width: calc(60% - 40px);
+    padding: 20px;
+    position: relative;
+  }
+  ul li ul li:last-child:before {
+    content: "";
+    display: block;
+    border-bottom: 80px solid $mainColor;
+    border-left: 80px solid transparent;
+    width: 0px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  h3 {
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  h3:before {
+    content: "";
+    width: 50px;
+    height: 4px;
+    background-color: $mainColor;
+    display: block;
+    position: absolute;
+    bottom: 0;
+  }
+  ul li ul li:last-child p {
+    padding-right: 10px;
+  }
+  ul li ul li:last-child p:last-child {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-right: 0;
+  }
+}
+@media screen and (max-width:768px) {
+  .menue-list-button {
+    ul {
+      width: 90%;
+      margin: 0 auto;
+      display: block;
+    }
+    li {
+      width: 100%;
+      margin-right: 0;
+      border-bottom: none;
+    }
+    li:last-child {
+      border-bottom: 1px solid;
+    }
+    a {
+      padding: 22px 0;
+    }
+  }
+  .main-visual {
+    h1 {
+      font-size: 8rem;
+    }
+  }
+  .menue-list {
+    > ul {
+      padding: 0 30px;
+      display: block;
+    }
+    > ul > li {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 150px;
+    }
+  }
+}
