@@ -42,7 +42,7 @@ iframe {
 }
 
 @media screen and (max-width: 960px) {
-  .container h1{
+  section .container h1{
     font-size: 10rem;
   }
 }
