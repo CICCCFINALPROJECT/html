@@ -3,88 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <title>CONTACT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="sass/reset.css">
     <link rel="stylesheet" href="sass/base.css">
     <link rel="stylesheet" href="sass/contact.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1><a href="/">logo</a></h1>
-            <nav>
-                <ul>
-                    <li><a href="/">HOME</a></li>
-                    <li><a href="menu.html">MENU</a></li>
-                    <li><a href="catering.html">CATERING</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <section class="main-visual">
-        <div class="container">
-         <div id="Contact">
-            <h1>CONTACT</h1>
-            <form >
-                <div>
-                    <label for="name" >Your Name</label><br>
-                    <input id="name" type="text" name="name" placeholder="Enter your name">
-                </div>
-                <div>
-                        <label for="email" >Email</label><br>
-                    <input id="email" type="text" name="email" placeholder="Enter your email addess">
-  
-                </div>
-                <div>
-                  <label for="subject" >Subject</label><br>
-              <input id="subject" type="text" name="subject" placeholder="Enter your subject">
-  
-          </div>
-                <div>
-                    <label for="message">Message</label>
-                    <div>
-                        <textarea id="message" name="message" placeholder="Your message here..."></textarea>
+        <header>
+                <div class="container">
+                    <h1><a href="/">logo</a></h1>
+                    <div id="nav_toggle">
+                        <div>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
                     </div>
+                    <nav>
+                        <ul>
+                            <li><a href="/">HOME</a></li>
+                            <li><a href="menu.html">MENU</a></li>
+                            <li><a href="catering.html">CATERING</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                        </ul>
+                    </nav>
                 </div>
-                <div class="container-contact100-form-btn">
-                    <a class="btn" href="" style="color:blue">SEND</a>
+            </header>
+            <section class="main-visual">
+                <div class="container">
+                    <h1>CONTACT</h1>
                 </div>
-                
-            </form>
-           
-            <h2>3rd Floor 106 West 1st Street
-                    North Vancouver
-                    BC V7M 1A9
-                    CANADA</h2> 
-            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10411.628552231497!2d-123.0492239!3d49.2781568!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54867122d2094aa5%3A0x1394043f2dbeb8d0!2sTempleton+Park+Pool!5e0!3m2!1szh-TW!2sca!4v1546940271233" ></iframe>
-        </div>
-       
-    </div>
-    <div class="footer">
-        <div id="footer-text">
-            <div class="one">
-                <p>
-                    3rd Floor 106 West 1st Street
-                    North Vancouver
-                    BC V7M 1A9
-                    CANADA
-                </p>
-            </div>
-            <div class="two">
-                <p>BALLET BLOCH CANADA</p>
-                <p>Artistic Director: Tracy-Lea Bloch<p>
-            </div>
-            <div class="three">
-                <p>info@balletbloch.com</p>
-            </div>
-            <div>
-            </div>
-            <div class="four">
-               
-            </div>
-        </div>
-    </div>
-        </div>
-    </section>
+            </section>
+            <section>
+                    <div class="container">
+                        <form action="action_page.php">
+                            <label for="fname">Name</label>
+                            <input type="text" id="fname" name="name" placeholder="Your name..">
+                            <label for="country">E-mail</label>
+                            <input type="text" id="fname" name="e-mail" placeholder="Your e-mail..">
+                            <label for="subject">Subject</label>
+                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                <div class="container">
+                    <div class="ggmap"><iframe src="https://www.google.com/maps/d/u/0/embed?mid=1wBTLHB-9xTL_KvcLDuVHtqPUR19qE4mT" width="640" height="480"></iframe></div>
+                </div>
+            </section>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
