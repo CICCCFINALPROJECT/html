@@ -1,4 +1,3 @@
-@charset "UTF-8";
 html {
   font-size: 62.5%;
 }
@@ -83,8 +82,11 @@ nav a {
   font-size: 1.6rem;
 }
 
-/*メニュー部分*/
-@media screen and (max-width: 960px) {
+footer {
+  background-color: #FFD655;
+}
+
+@media screen and (max-width: 768px) {
   header h1 {
     padding: 20px;
   }
@@ -119,7 +121,7 @@ nav a {
     width: 40px;
     height: 40px;
     position: relative;
-    top: 20px;
+    top: 0;
     right: 20px;
     z-index: 100;
   }
@@ -231,6 +233,7 @@ nav a {
 
 .menue-list > ul > li {
   width: calc(350px - 20px);
+  margin-top: 20px;
   margin-right: 20px;
 }
 
@@ -292,7 +295,7 @@ nav a {
   padding-right: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .menue-list-button ul {
     width: 90%;
     margin: 0 auto;
@@ -319,6 +322,15 @@ nav a {
   .menue-list > ul > li {
     width: 100%;
     margin-right: 0;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .menue-list h3 {
+    font-size: 2rem;
+  }
+  .menue-list ul li ul li:last-child p:last-child {
+    font-size: 1.2rem;
   }
 }
