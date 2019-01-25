@@ -20,7 +20,7 @@ nav ul li a {
     text-align: center;
     z-index: -1;
 }
-.fadeSlider > span {
+.fadeSlider .slides {
     position: absolute;
     top: 0;
     left: 0;
@@ -106,15 +106,29 @@ nav ul li a {
 }
 
 
-@media screen and (max-width: 960px) {
-    .container {
-        width: 100%;
-    }
+@media screen and (max-width: 768px) {
+    /* .container {
+        max-width: 768px;
+    } */
     .fadeSlider span {
         height: 80%;
     }
     .fadeSlider div {
         bottom: 20%;
+    }
+    .fadeSlider div h1 {
+        height: 90px;
+    }
+    /* About US Section*/
+    .container-text {
+        padding: 0 100px;
+    }
+    .grill-image {
+        height: 250px;
+    }
+    /* Our Menu Section */
+    .wrap {
+        justify-content: center;
     }
 }
 
@@ -130,16 +144,16 @@ nav ul li a {
     font-family: 'Oswald', sans-serif;
     color: #F1742E;
 }
-.container .text {
-    width: 600px;
+.container-text {
+    width: 60%;
     margin: 30px auto;
 }
-.container .text p {
+.container-text p {
     font-family: Helvetica, sans-serif;
     color: #3d3d3d;
     line-height: 1.5em;
 }
-.container .text p span {
+.container-text p span {
     font-size: 1.5rem;
     font-weight: 900;
     font-style: italic; 
