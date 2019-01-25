@@ -3,7 +3,7 @@
     border: .5px silver solid;
 }
 .main-visual {
-    background: url("../images/catering/bg_mv.jpg") no-repeat center #D38639;
+    background: url("../images/catering/bg_mv.jpg") no-repeat center;
     background-size: cover;
   }
 

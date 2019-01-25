@@ -57,6 +57,7 @@ img {
 header {
   width: 100%;
   position: absolute;
+  top: 20px;
   z-index: 1;
 }
 
@@ -64,6 +65,11 @@ header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+header h1 a {
+  color: #FF9D00;
+  font-family: 'Miniver', sans-serif;
 }
 
 nav ul {
@@ -312,7 +318,6 @@ nav a {
 .main-visual {
   height: 500px;
   position: relative;
-  background: url("../images/menu/bg-mv.png") no-repeat center;
   background-color: #D38639;
 }
 
@@ -326,4 +331,5 @@ nav a {
   font-size: 21rem;
   color: #ffffff;
   text-shadow: 2px 2px 4px #000000;
+  font-family: 'Miniver', sans-serif;
 }

@@ -1,4 +1,8 @@
 @import 'base';
+.main-visual {
+  background: url("../images/menu/bg-mv.jpg") no-repeat center;
+  background-size:cover; 
+}
 .container {
   h2 {
     margin-bottom: 50px;

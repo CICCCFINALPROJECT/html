@@ -1,6 +1,6 @@
 /* Style inputs with type="text", select elements and textareas */
 .main-visual {
-  background: url("../images/contact/bg_mv.jpg") no-repeat center #D38639;
+  background: url("../images/contact/bg_mv.jpg") no-repeat center ;
   background-size: cover;
 }
 form {
