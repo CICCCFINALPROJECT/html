@@ -37,11 +37,11 @@
   > ul {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
   }
   > ul > li {
-    width: calc(350px - 20px);
+    width: 340px;
     margin-top: 20px;
-    margin-right: 20px;
   }
   ul li ul {
     display: flex
