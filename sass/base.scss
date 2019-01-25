@@ -1,5 +1,6 @@
 $mainColor: #FF9D00;
 $mvColor: #D38639;
+$title-text:'Miniver', sans-serif;
 $textFont:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 html {
   font-size: 62.5%;
@@ -57,7 +58,7 @@ header {
   }
   h1 a {
     color: $mainColor;
-    font-family: 'Miniver', sans-serif;
+    font-family: $title-text;
   }
 }
 nav {
@@ -81,7 +82,6 @@ nav {
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
-	font: bold 16px sans-serif;
 	padding: 55px 50px;
   margin-top: 80px;
   
@@ -97,6 +97,7 @@ nav {
     width: 40%;
     h2 {
       text-align: left;
+      font-family: $title-text;
     }
   }
   
