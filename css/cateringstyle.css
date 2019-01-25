@@ -98,15 +98,30 @@ small{
     position: fixed;
     text-align: center;
 }
-
+.line-break {
+    display: block;
+}
 
 @media screen and (max-width: 1024px) {
     .main-visual h1 {
         font-size: 6rem;
     }
+    .line-break {
+        display: inline;
+    }
 }
 @media screen and (max-width: 960px) {
-    section .container, .text-1, .gallery li p,
+    .banner,
+    .banner-1,
+    .banner-2 {
+        width: 100%;
+        height: auto;
+    }
+    .banner-2 {
+        padding-bottom: 30px;
+        border: none;
+    }
+    .text-1, .gallery li p,
     .gallery, banner-1 {
         width: 100%;
         flex-direction: column;
@@ -125,17 +140,12 @@ small{
         height: auto;
         flex-direction: column;
     }
-
-    .banner {
-        width: 70%;
-        
-    }
-    section .container, .banner, .banner-1, .banner-2 {
+    .banner, .banner-1, .banner-2 {
         display: block;
         flex-direction: column;
     }
 
-    section .container, .banner, .banner-1 p{
+    section .gallery {
        text-align: left;
        width: 70%;
     }
