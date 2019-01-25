@@ -12,6 +12,7 @@ h1,h2 {
   text-align: center;
   color: $mainColor;
   font-weight: bold;
+  font-family: 'Miniver', sans-serif;
 }
 h1 {
   font-size: 3.8rem;
@@ -90,6 +91,9 @@ nav {
   
   .footer-left{
     width: 40%;
+    h2 {
+      text-align: left;
+    }
   }
   
   .footer-links{
