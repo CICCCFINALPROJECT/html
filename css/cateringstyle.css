@@ -102,8 +102,8 @@ small{
 
 
 @media screen and (max-width: 960px) {
-    .container, .text-1, .gallery li p, 
-    banner-1 {
+    .container, .text-1, .gallery li p,
+    .gallery, banner-1 {
         width: 100%;
         flex-direction: column;
     }
@@ -114,7 +114,7 @@ small{
         margin:0;
     }
     .container h1 {
-        font-size: 10rem;
+        font-size: 6rem;
     }   
     
     .gallery li, .img, .banner, banner-1 {
