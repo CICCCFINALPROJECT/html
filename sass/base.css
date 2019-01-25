@@ -204,6 +204,12 @@ nav a {
   margin-bottom: 5px;
 }
 
+@media screen and (max-width: 1024px) {
+  header .container {
+    width: 90%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   header h1 {
     padding: 20px;

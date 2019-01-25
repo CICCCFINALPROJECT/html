@@ -100,9 +100,13 @@ small{
 }
 
 
-
+@media screen and (max-width: 1024px) {
+    .main-visual h1 {
+        font-size: 6rem;
+    }
+}
 @media screen and (max-width: 960px) {
-    .container, .text-1, .gallery li p,
+    section .container, .text-1, .gallery li p,
     .gallery, banner-1 {
         width: 100%;
         flex-direction: column;
@@ -113,26 +117,25 @@ small{
         padding: 0;
         margin:0;
     }
-    .container h1 {
+    section .container h1 {
         font-size: 6rem;
     }   
     
     .gallery li, .img, .banner, banner-1 {
         height: auto;
         flex-direction: column;
-
     }
 
-    .banner,{
+    .banner {
         width: 70%;
         
     }
-    .container, .banner, .banner-1, .banner-2 {
+    section .container, .banner, .banner-1, .banner-2 {
         display: block;
         flex-direction: column;
     }
 
-    .container, .banner, .banner-1 p{
+    section .container, .banner, .banner-1 p{
        text-align: left;
        width: 70%;
     }
