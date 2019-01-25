@@ -58,7 +58,6 @@ header {
   position: fixed;
   top: 0;
   padding: 10px 0;
-  background-color: rgba(0, 0, 0, 0.25098);
   z-index: 1;
 }
 
@@ -71,6 +70,12 @@ header .container {
 header h1 a {
   color: #FF9D00;
   font-family: "Miniver", sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-header {
+    background-color: rgba(0, 0, 0, 0.25098);
+  }
 }
 
 nav ul {

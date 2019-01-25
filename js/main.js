@@ -17,3 +17,16 @@ $('a[href^="#"]').click(function(){
     return false;
 });
 });
+
+$(function(){
+    $(window).scroll(function() {
+      var pos = $(window).scrollTop();
+      if (700 < pos) {
+        $('header').addClass('bg-header');
+      } else if(300 < pos) {
+        $('header').addClass('bg-header');
+      }else {
+        $('header').removeClass('bg-header');
+      }
+    });
+  });
