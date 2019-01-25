@@ -7,10 +7,6 @@ header .container {
     align-items: baseline;
     z-index: 2;
 }
-nav ul li a {
-    font-family: 'Helvetica', sans-serif;
-    font-size: 1.2rem;
-}
 
 
 /* Top Page */
@@ -137,7 +133,6 @@ nav ul li a {
 .container {
     text-align: center;
     margin: 0 auto;
-    margin-top: 50px;
 }
 .section-title {
     font-size: 5em;
